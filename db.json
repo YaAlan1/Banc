@@ -1,0 +1,185 @@
+{
+  "users": [
+    {
+      "id": "2385",
+      "email": "sevariik@gmail.com",
+      "lastname": "Seva",
+      "surname": "Me",
+      "password": "55555",
+      "token": "9DelDw9vMHmn3hkK"
+    },
+    {
+      "id": "8639",
+      "email": "alexadams@google.com",
+      "lastname": "alex",
+      "surname": "test",
+      "password": "1212",
+      "token": "VKGqz8CGDxHvx6xL"
+    },
+    {
+      "id": "eec6",
+      "email": "stevetheking111@gmail.com",
+      "lastname": "test",
+      "surname": "test",
+      "password": "etetette",
+      "token": "rTcy5yRtNEGZn4oX"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "aaa",
+      "name": "Visa",
+      "currency": "RUB",
+      "balance": 10000,
+      "userId": "2385"
+    },
+    {
+      "id": "bbb",
+      "name": "Humo",
+      "currency": "RUB",
+      "balance": 75000,
+      "userId": "2385"
+    },
+    {
+      "id": "abc",
+      "name": "Uzcard",
+      "currency": "UZD",
+      "balance": 150000,
+      "userId": "2385"
+    },
+    {
+      "id": "abb",
+      "name": "Visa",
+      "currency": "UZD",
+      "balance": 50000,
+      "userId": "8639"
+    },
+    {
+      "id": "ccc",
+      "name": "Humo",
+      "currency": "UZD",
+      "balance": 20000,
+      "userId": "8639"
+    },
+    {
+      "id": "bbc",
+      "name": "Uzcard",
+      "currency": "UZD",
+      "balance": 150000,
+      "userId": "8639"
+    },
+    {
+      "id": "35a5",
+      "name": "tes",
+      "currency": "sdsd",
+      "balance": 10000,
+      "userId": "8639"
+    },
+    {
+      "id": "8e71",
+      "name": "test",
+      "currency": "123",
+      "balance": 10000,
+      "userId": "8639"
+    },
+    {
+      "id": "454f",
+      "name": "Visa",
+      "currency": "RUB",
+      "balance": 10000,
+      "userId": "2385"
+    },
+    {
+      "id": "1534",
+      "name": "Visa",
+      "currency": "RUB",
+      "balance": 10000,
+      "userId": "2385"
+    },
+    {
+      "id": "e37d",
+      "name": "Visa",
+      "currency": "RUB",
+      "balance": 10000,
+      "userId": "2385"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "123123",
+      "description": "buy a car",
+      "sum": 414000000,
+      "userId": "2385",
+      "wallet": {
+        "id": "aaa",
+        "name": "VISA"
+      },
+      "createdAt": "2025-02-25"
+    },
+    {
+      "id": "123321",
+      "description": "buy a guitar",
+      "sum": 222000000,
+      "userId": "8639",
+      "wallet": {
+        "id": "abb",
+        "name": "VISA"
+      },
+      "createdAt": "2025-02-20"
+    },
+    {
+      "id": "321123",
+      "description": "buy a ticket",
+      "sum": 414000000,
+      "userId": "2385",
+      "wallet": {
+        "id": "bbb",
+        "name": "Humo"
+      },
+      "createdAt": "2025-02-15"
+    },
+    {
+      "id": "321321",
+      "description": "buy a flower",
+      "sum": 400000000,
+      "userId": "8639",
+      "wallet": {
+        "id": "ccc",
+        "name": "Humo"
+      },
+      "createdAt": "2025-02-14"
+    },
+    {
+      "id": "213213",
+      "description": "buy a BMW",
+      "sum": 313000000,
+      "userId": "2385",
+      "wallet": {
+        "id": "abc",
+        "name": "Uzcard"
+      },
+      "createdAt": "2025-01-11"
+    },
+    {
+      "id": "231231",
+      "description": "buy a camera",
+      "sum": 514000000,
+      "userId": "8639",
+      "wallet": {
+        "id": "bbc",
+        "name": "Uzcard"
+      },
+      "createdAt": "2025-01-05"
+    },
+    {
+      "id": "b1aa",
+      "description": "buy a car",
+      "sum": "10000",
+      "userId": "2385",
+      "wallet": {
+        "name": "humo"
+      },
+      "createdAt": "2025-03-1"
+    }
+  ]
+}

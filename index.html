@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <header class="container">
+    
+  </header>
+
+  <main class="account-container container">
+    <h1>Добро пожаловать, <span id="lastname"></span> <span id="surname"><span></h1>
+    <a id="userEmail" href=""></a>
+
+    <section class="wallets">
+      <h2>Мои кошельки</h2>
+      <div class="wallet-container"></div>
+      <a href="src/pages/wallets/index.html">Смотреть все кошельки</a>
+    </section>
+
+    <section class="transactions container">
+      <h2>Последние транзакции</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Отправлено с кошелька</th>
+            <th>Категория</th>
+            <th>Сумма транзакции</th>
+            <th>Когда</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <a href="src/pages/transactions/index.html" class="view-all">Смотреть все оплаты</a>
+    </section>
+  </main>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
